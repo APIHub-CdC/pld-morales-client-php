@@ -98,20 +98,13 @@ $this->signer = new \PldPmClientePhp\Client\Interceptor\KeyHandler(
 );
 ```
  > **NOTA:** Sólamente en caso de que el contenedor haya cifrado, se debe colocar la contraseña en una variable de ambiente e indicar el nombre de la misma, como se ve en la imagen anterior.
-### Paso 2. Modificar URL
- Modificar la URL de la petición en ***test/Api/ApiTest.php***, como se muestra en el siguiente fragmento de código:
+### Paso 4. Modificar URL
+ Modificar la URL de la petición en ***test/Api/PLDPersonasMoralesApiTest.php***, como se muestra en el siguiente fragmento de código:
  ```php
  $config = new \PldPmClientePhp\Client\Configuration();
  $config->setHost('the_url');
  ```
- 
-### Paso 4. Reporte completo o segmentado
 
- Modificar la variable en ***test/Api/ApiTest.php*** (false si es segmentado o true para reporte completo), como se muestra en el siguiente fragmento de código:
- ```php
-$this->x_full_report = 'false';
- ```
- 
 ### Paso 5. Capturar los datos de la petición
 
 Es importante contar con el setUp() que se encargará de firmar y verificar la petición.
