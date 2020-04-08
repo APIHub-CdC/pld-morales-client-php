@@ -1,5 +1,5 @@
 # pld-morales-client-php
-Es una solución de filtrado contra listas públicas de cumplimiento para Prevención de Lavado de Dinero y Financiamiento al Terrorismo (PLD/FT).
+Es una solución de filtrado de personas morales contra listas públicas de cumplimiento para Prevención de Lavado de Dinero y Financiamiento al Terrorismo (PLD/FT).
 
 ## Requisitos
 
