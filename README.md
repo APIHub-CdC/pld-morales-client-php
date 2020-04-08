@@ -1,4 +1,4 @@
-# PLD Personas Morales
+# pld-morales-client-php
 Es una solución de filtrado contra listas públicas de cumplimiento para Prevención de Lavado de Dinero y Financiamiento al Terrorismo (PLD/FT).
 
 ## Requisitos
